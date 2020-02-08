@@ -1,0 +1,7 @@
+.Box-container {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  flex-direction: column;
+  margin: 50px;
+}

@@ -1,0 +1,33 @@
+.NewBoxForm {
+  margin: 10px;
+  max-width: 300px;
+}
+
+.NewBoxForm .form-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NewBoxForm .form-row > label {
+  flex: 1;
+  padding: 5px;
+}
+
+.NewBoxForm .form-row > input {
+  flex: 1;
+  margin: 2px;
+}
+
+.submit {
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.submit button {
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
